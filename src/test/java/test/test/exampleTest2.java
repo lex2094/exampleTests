@@ -3,21 +3,11 @@ package test.test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Random;
+
 public class exampleTest2 {
     @Test
-    void exampleTest22(){
-        Assertions.assertTrue(100>99);
-        Assertions.assertTrue(500>99);
-
+    void exampleTest22() {
+        Assertions.assertTrue(new Random().nextInt()>100);
     }
-    {
-        @Test
-        void exampleTest23(){
-        Assertions.assertTrue(101>99);
-    }
-        {
-            @Test
-            void exampleTest23(){
-            Assertions.assertTrue(101>99);
-        }
 }
