@@ -14,7 +14,10 @@ public class exampleTest2 {
         @Test
         void exampleTest23(){
         Assertions.assertTrue(101>99);
-        Assertions.assertTrue(999>99);
-
     }
+        {
+            @Test
+            void exampleTest23(){
+            Assertions.assertTrue(101>99);
+        }
 }
