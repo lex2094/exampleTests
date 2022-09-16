@@ -9,4 +9,10 @@ public class exampleTest2 {
         Assertions.assertTrue(100>99);
 
     }
+    {
+        @Test
+        void exampleTest3(){
+        Assertions.assertTrue(101>99);
+
+    }
 }
